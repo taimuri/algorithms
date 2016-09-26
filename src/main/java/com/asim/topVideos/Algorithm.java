@@ -38,7 +38,7 @@ public class Algorithm {
 	public static void main(String[] args) {
 		Algorithm al = new Algorithm();
 
-		List<Video> videos = new ArrayList<>(10);
+		List<Video> videos = new ArrayList<>(100);
 
 		for (int i = 0; i < 100; i++) {
 			videos.add(new Video(generateRandomId()));
